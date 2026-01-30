@@ -1,0 +1,18 @@
+# Example commands for WHOOP Skill
+
+# 1. Authentication
+# First, ensure you have your client_id and client_secret in .whoop_config.json
+# Then run:
+whoop auth
+
+# 2. View today's summary
+whoop today
+
+# 3. View recovery for the last 7 days
+whoop recovery
+
+# 4. View recovery for the last 30 days
+whoop recovery 30
+
+# 5. View sleep data for the last 3 days
+whoop sleep 3
